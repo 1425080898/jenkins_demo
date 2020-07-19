@@ -29,11 +29,11 @@ public class DeptController {
     @RequestMapping("/deptList")
     public String deptList(Model model){
         Map map = new HashMap();
-        map.put("id","1");
-        map.put("name","人事部");
+        map.put("id","3");
+        map.put("name","质检部");
         Map map2 = new HashMap();
-        map2.put("id","2");
-        map2.put("name","技术部");
+        map2.put("id","4");
+        map2.put("name","运维部");
         List list = new ArrayList();
         list.add(map);
         list.add(map2);
