@@ -20,7 +20,12 @@ import java.util.Map;
 @Controller
 @RequestMapping("/dept")
 public class DeptController {
-
+    /**
+     * create by: xiaoLiu
+     * description: 再次测试jenkins
+     * create time: 2020/7/19 19:45
+     * @return
+     */
     @RequestMapping("/deptList")
     public String deptList(Model model){
         Map map = new HashMap();
